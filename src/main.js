@@ -10,5 +10,15 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
+  data:{
+    
+      contacts:{
+        1:{
+          name:'Andre',
+          number:'09737556666'
+        }
+      }
+    
+  },
   render: h => h(App),
 }).$mount('#app')

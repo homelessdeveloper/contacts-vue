@@ -8,6 +8,7 @@ const  routes=[
     component:Home,
   },
   
+  
 
 ];
 const router= new Router({routes});

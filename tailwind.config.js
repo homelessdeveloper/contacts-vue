@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "accent": "#304ffd"
+        "accent": "#304ffd",
+        "main-black":"#3F434A",
       },
       boxShadow: {
         "button-passive": "0 2px 0 rgb(38,63,202,1)",
